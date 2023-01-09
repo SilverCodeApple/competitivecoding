@@ -5,21 +5,18 @@ using namespace std;
 
 
 int main(){
-    int t , x1 , y1 , x2 , y2, dif1 = 0, dif2 = 0;
-    cin >> t;
-    while(t--){
-    	cin>>x1>>y1>>x2>>y2;
-    	dif1 = round(abs(x1-x2));
-    	dif2 = round(abs(y1-y2));
-    	
-    	if(dif1 > dif2){
-    		cout<<dif1<<endl;
-		}else{
-			cout<<dif2<<endl;
-		}
-    	
-		
-	
+   int t, n, x, p, aux = 0;
+   
+   cin >> t;
+   while(t--){
+   	cin>>n>>x>>p;
+   	aux = x * 3 + (n - x) * -1 ;
+   	if(aux == p){
+   		cout<<"pass"<<endl;
 	}
+	else{
+		cout<<"fail"<<endl;
+	}
+   }
 return 0;	
 }
