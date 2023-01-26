@@ -1,4 +1,4 @@
-# competitivecoding
+# CompetitiveCoding SPR roadmap
 This is where i will upload all my journey in competitive coding on code chef
 
 
